@@ -1,4 +1,5 @@
-###Un processo P1 crea una pipe e un figlio F1. Un secondo processo P2
+###
+Un processo P1 crea una pipe e un figlio F1. Un secondo processo P2
 comunicherà con P1 tramite un file TEMP. P2 ogni secondo genera un
 numero casuale da 1 a 100 e lo scrive nel FILE seguito dal proprio pid. P1
 dopo 20 secondi dalla creazione del figlio scrive nella pipe il pid di P2,
